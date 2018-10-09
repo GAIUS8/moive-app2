@@ -14,7 +14,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,5 +25,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://github.com/GAIUS8/movie_app2"
+  "homepage": "https://gaius8.github.io/movie_app2/",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
